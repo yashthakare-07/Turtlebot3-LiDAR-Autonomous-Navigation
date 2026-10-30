@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: turtle-py-pkg
+Version: 0.1.0
+Summary: TurtleBot3 Gazebo and Nav2 assignment bringup for ROS 2 Jazzy
+Maintainer: mob-psycho-100
+Maintainer-email: yashthakare783@gmail.com
+License: Apache-2.0

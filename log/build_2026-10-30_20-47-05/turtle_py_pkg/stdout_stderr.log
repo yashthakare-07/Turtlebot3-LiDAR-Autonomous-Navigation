@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing turtle_py_pkg.egg-info/PKG-INFO
+writing dependency_links to turtle_py_pkg.egg-info/dependency_links.txt
+writing requirements to turtle_py_pkg.egg-info/requires.txt
+writing top-level names to turtle_py_pkg.egg-info/top_level.txt
+reading manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages/turtle-py-pkg.egg-link (link to .)
+
+Installed /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg
+running symlink_data
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/maps/complex_obstacle_world.yaml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps
+error: can't copy '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/maps/turtlebot3_world.yaml': doesn't exist or not a regular file

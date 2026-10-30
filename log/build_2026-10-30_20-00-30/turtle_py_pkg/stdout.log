@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating turtle_py_pkg.egg-info
+writing turtle_py_pkg.egg-info/PKG-INFO
+writing dependency_links to turtle_py_pkg.egg-info/dependency_links.txt
+writing requirements to turtle_py_pkg.egg-info/requires.txt
+writing top-level names to turtle_py_pkg.egg-info/top_level.txt
+writing manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+reading manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages/turtle-py-pkg.egg-link (link to .)
+
+Installed /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg
+running symlink_data
+creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index
+creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index/resource_index
+creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/resource/turtle_py_pkg -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/package.xml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg
+creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/launch
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/launch/turtlebot3_nav_demo.launch.py -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/launch
+creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/config
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/config/tb3_navigation2.rviz -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/config
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/config/burger_nav2.yaml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/config
+creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/maps/turtlebot3_world.yaml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps
+symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/maps/turtlebot3_world.pgm -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps

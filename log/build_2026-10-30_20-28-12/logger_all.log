@@ -1,0 +1,132 @@
+[0.327s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'turtle_py_pkg']
+[0.327s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtle_py_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cba503addf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cba503ad640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cba503ad640>>, mixin_verb=('build',))
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.437s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mob-psycho-100/ROS2_WS'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_py_pkg) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_py_pkg' with type 'ros.ament_python' and name 'turtle_py_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.527s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/jazzy
+[0.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'turtle_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg', 'merge_install': False, 'path': '/home/mob-psycho-100/ROS2_WS/src/turtle_py_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.598s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.601s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mob-psycho-100/ROS2_WS/src/turtle_py_pkg' with build type 'ament_python'
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_py_pkg', 'ament_prefix_path')
+[0.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/hook/ament_prefix_path.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/hook/ament_prefix_path.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/hook/ament_prefix_path.sh'
+[0.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mob-psycho-100/ROS2_WS/src/turtle_py_pkg'
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.949s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, editable_wheel, build_scripts, install, sdist, install_lib, setopt, alias, build_ext, upload, init_catalog, extract_messages, build, build_py, test, build_clib, install_scripts, upload_docs, egg_info, clean, bdist_dumb, dist_info, check, install_egg_info, bdist_wheel, bdist, compile_catalog, easy_install, saveopts, bdist_egg, develop, rotate, bdist_rpm, install_headers, update_catalog, register, install_data
+[2.343s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --exclude-scripts, --find-links, --version, --script-dir, --editable, --uninstall, --local-snapshots-ok, --site-dirs, --zip-ok, --allow-hosts, --no-user-cfg, --optimize, --quiet, --index-url, --install-layout, --dry-run, --install-dir, --user, --verbose, --upgrade, --build-directory, --help, --egg-path, --always-unzip, --force-installation-into-system-dir, --prefix, --always-copy, --no-find-links, --multi-version, --no-deps, --record
+[2.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/build --no-deps symlink_data
+[3.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_py_pkg', 'pythonpath_develop')
+[3.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/share/turtle_py_pkg/hook/pythonpath_develop.ps1'
+[3.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/build --no-deps symlink_data
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/share/turtle_py_pkg/hook/pythonpath_develop.dsv'
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/share/turtle_py_pkg/hook/pythonpath_develop.sh'
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg' for CMake module files
+[3.127s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg' for CMake config files
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/bin'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/pkgconfig/turtle_py_pkg.pc'
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages'
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_py_pkg', 'pythonpath')
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/hook/pythonpath.ps1'
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/hook/pythonpath.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/hook/pythonpath.sh'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/bin'
+[3.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_py_pkg)
+[3.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/package.ps1'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/package.dsv'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/package.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/package.bash'
+[3.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/package.zsh'
+[3.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/colcon-core/packages/turtle_py_pkg)
+[3.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.139s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.139s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.139s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.155s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.182s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mob-psycho-100/ROS2_WS/install/local_setup.ps1'
+[3.184s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mob-psycho-100/ROS2_WS/install/_local_setup_util_ps1.py'
+[3.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mob-psycho-100/ROS2_WS/install/setup.ps1'
+[3.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mob-psycho-100/ROS2_WS/install/local_setup.sh'
+[3.188s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mob-psycho-100/ROS2_WS/install/_local_setup_util_sh.py'
+[3.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mob-psycho-100/ROS2_WS/install/setup.sh'
+[3.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mob-psycho-100/ROS2_WS/install/local_setup.bash'
+[3.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mob-psycho-100/ROS2_WS/install/setup.bash'
+[3.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mob-psycho-100/ROS2_WS/install/local_setup.zsh'
+[3.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mob-psycho-100/ROS2_WS/install/setup.zsh'

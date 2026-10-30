@@ -1,0 +1,30 @@
+[0.773s] Invoking command in '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/build --no-deps symlink_data
+[0.979s] running develop
+[1.091s] running egg_info
+[1.091s] creating turtle_py_pkg.egg-info
+[1.101s] writing turtle_py_pkg.egg-info/PKG-INFO
+[1.101s] writing dependency_links to turtle_py_pkg.egg-info/dependency_links.txt
+[1.101s] writing requirements to turtle_py_pkg.egg-info/requires.txt
+[1.101s] writing top-level names to turtle_py_pkg.egg-info/top_level.txt
+[1.101s] writing manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+[1.124s] reading manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+[1.124s] writing manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'
+[1.136s] running build_ext
+[1.136s] Creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages/turtle-py-pkg.egg-link (link to .)
+[1.137s] 
+[1.137s] Installed /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg
+[1.137s] running symlink_data
+[1.137s] creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index
+[1.137s] creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index/resource_index
+[1.137s] creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index/resource_index/packages
+[1.137s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/resource/turtle_py_pkg -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/ament_index/resource_index/packages
+[1.137s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/package.xml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg
+[1.137s] creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/launch
+[1.137s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/launch/turtlebot3_nav_demo.launch.py -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/launch
+[1.137s] creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/config
+[1.138s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/config/tb3_navigation2.rviz -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/config
+[1.138s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/config/burger_nav2.yaml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/config
+[1.138s] creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps
+[1.138s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/maps/turtlebot3_world.yaml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps
+[1.138s] symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/maps/turtlebot3_world.pgm -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/maps
+[1.162s] Invoked command in '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/build --no-deps symlink_data

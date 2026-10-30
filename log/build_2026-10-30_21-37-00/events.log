@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.001387] (turtle_py_pkg) JobQueued: {'identifier': 'turtle_py_pkg', 'dependencies': OrderedDict()}
+[0.001598] (turtle_py_pkg) JobStarted: {'identifier': 'turtle_py_pkg'}
+[0.099036] (-) TimerEvent: {}
+[0.199447] (-) TimerEvent: {}
+[0.300578] (-) TimerEvent: {}
+[0.400874] (-) TimerEvent: {}
+[0.501308] (-) TimerEvent: {}
+[0.601608] (-) TimerEvent: {}
+[0.701915] (-) TimerEvent: {}
+[0.802197] (-) TimerEvent: {}
+[0.902445] (-) TimerEvent: {}
+[1.002798] (-) TimerEvent: {}
+[1.103621] (-) TimerEvent: {}
+[1.203856] (-) TimerEvent: {}
+[1.304079] (-) TimerEvent: {}
+[1.404456] (-) TimerEvent: {}
+[1.504903] (-) TimerEvent: {}
+[1.605264] (-) TimerEvent: {}
+[1.706062] (-) TimerEvent: {}
+[1.806350] (-) TimerEvent: {}
+[1.906616] (-) TimerEvent: {}
+[2.006901] (-) TimerEvent: {}
+[2.107221] (-) TimerEvent: {}
+[2.207491] (-) TimerEvent: {}
+[2.307791] (-) TimerEvent: {}
+[2.408274] (-) TimerEvent: {}
+[2.508516] (-) TimerEvent: {}
+[2.609002] (-) TimerEvent: {}
+[2.709309] (-) TimerEvent: {}
+[2.726904] (turtle_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg', 'env': OrderedDict({'CODEX_TECTONIC_PATH': '/usr/lib/chatgpt/resources/tectonic/tectonic', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE': '1', 'CODEX_CI': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mob-psycho-100', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'Codex Desktop', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'CODEX_SHELL': '1', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LOG_FORMAT': 'json', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mob-psycho-100', 'CHROME_DESKTOP': 'chatgpt.desktop', 'DISABLE_AUTO_UPDATE': 'true', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/chatgpt.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'cat', 'MANAGERPID': '2059', 'CODEX_APP_TOOLS_PIPE_PATH': '/tmp/codex-app-tools/5b0a0ecf-3639-471e-b996-6f5804542b66.sock', 'LC_CTYPE': 'C.UTF-8', 'SYSTEMD_EXEC_PID': '2427', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'CODEX_MCP_NODE_PATH': '/usr/lib/chatgpt/resources/cua_node/bin/node', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3441', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'CODEX_PERMISSION_PROFILE': ':workspace', 'CODEX_TOOL_CALL_ID': 'exec-12a65e89-ad54-4899-9c96-69d7d1cc7476', 'ROS_DISTRO': 'jazzy', 'ZSH_TMUX_AUTOSTARTED': 'true', 'LOGNAME': 'mob-psycho-100', 'JOURNAL_STREAM': '10:16179', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS': '1', 'RUST_LOG': 'warn', 'USERNAME': 'mob-psycho-100', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/mob-psycho-100/.local/bin:/home/mob-psycho-100/.codex/tmp/arg0-linux/codex-arg06ENhyJ:/home/mob-psycho-100/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/mob-psycho-100/.local/bin:/home/mob-psycho-100/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mob-psycho-100/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mob-psycho-100/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources', 'SESSION_MANAGER': 'local/TheMob:@/tmp/.ICE-unix/2395,unix/TheMob:/tmp/.ICE-unix/2395', 'CODEX_VERSION': '0.166.0-alpha.5.1', 'CODEX_SESSION_ID': '01a18d34-a57e-7c70-ab2f-cddc30fb8dc1', 'INVOCATION_ID': '3d67f8a9fbaa4ccda4f6625243698408', 'BROWSER_USE_ACCESS_PIPE_PATH': '/tmp/codex-app-tools/5b0a0ecf-3639-471e-b996-6f5804542b66.sock', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'GH_PAGER': 'cat', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'BROWSER_USE_ACCESS_VERIFYING_IDENTITY': 'MCowBQYDK2VwAyEAZa+aai5eYkNVqpsoO5b3sEd3UB4olkl/dUQbOCr0soo=', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'BROWSER_USE_ACCESS_EXECUTOR_ID': '["af1d16f8-a814-4e6f-8f01-7d0eaf245d53","native-browser-plugin"]', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CODEX_THREAD_ID': '01a18d34-a57e-7c70-ab2f-cddc30fb8dc1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY': 'MCowBQYDK2VwAyEAZa+aai5eYkNVqpsoO5b3sEd3UB4olkl/dUQbOCr0soo=', 'CODEX_APP_RUNTIME_CLI_PATH': '/usr/lib/chatgpt/resources/codex', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'ZSH_TMUX_AUTOSTART': 'false', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.809610] (-) TimerEvent: {}
+[2.909911] (-) TimerEvent: {}
+[3.010250] (-) TimerEvent: {}
+[3.110658] (-) TimerEvent: {}
+[3.210938] (-) TimerEvent: {}
+[3.311269] (-) TimerEvent: {}
+[3.404136] (turtle_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[3.411359] (-) TimerEvent: {}
+[3.511563] (-) TimerEvent: {}
+[3.611775] (-) TimerEvent: {}
+[3.712464] (-) TimerEvent: {}
+[3.812777] (-) TimerEvent: {}
+[3.838527] (turtle_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.888911] (turtle_py_pkg) StdoutLine: {'line': b'writing turtle_py_pkg.egg-info/PKG-INFO\n'}
+[3.890378] (turtle_py_pkg) StdoutLine: {'line': b'writing dependency_links to turtle_py_pkg.egg-info/dependency_links.txt\n'}
+[3.892374] (turtle_py_pkg) StdoutLine: {'line': b'writing requirements to turtle_py_pkg.egg-info/requires.txt\n'}
+[3.893086] (turtle_py_pkg) StdoutLine: {'line': b'writing top-level names to turtle_py_pkg.egg-info/top_level.txt\n'}
+[3.913154] (-) TimerEvent: {}
+[3.990907] (turtle_py_pkg) StdoutLine: {'line': b"reading manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'\n"}
+[3.992774] (turtle_py_pkg) StdoutLine: {'line': b"writing manifest file 'turtle_py_pkg.egg-info/SOURCES.txt'\n"}
+[4.013269] (-) TimerEvent: {}
+[4.045079] (turtle_py_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[4.045516] (turtle_py_pkg) StdoutLine: {'line': b'Creating /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/lib/python3.12/site-packages/turtle-py-pkg.egg-link (link to .)\n'}
+[4.047934] (turtle_py_pkg) StdoutLine: {'line': b'\n'}
+[4.048920] (turtle_py_pkg) StdoutLine: {'line': b'Installed /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg\n'}
+[4.049236] (turtle_py_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[4.049436] (turtle_py_pkg) StdoutLine: {'line': b'symbolically linking /home/mob-psycho-100/ROS2_WS/build/turtle_py_pkg/launch/autonomous_navigation.launch.xml -> /home/mob-psycho-100/ROS2_WS/install/turtle_py_pkg/share/turtle_py_pkg/launch\n'}
+[4.113480] (-) TimerEvent: {}
+[4.194477] (turtle_py_pkg) CommandEnded: {'returncode': 0}
+[4.213680] (-) TimerEvent: {}
+[4.230273] (turtle_py_pkg) JobEnded: {'identifier': 'turtle_py_pkg', 'rc': 0}
+[4.231908] (-) EventReactorShutdown: {}

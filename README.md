@@ -196,5 +196,6 @@ ros2 lifecycle get /amcl         # Expect: active
 
 ## 10. Demo
 
-<!-- Replace with your recording or GIF -->
-[Navigation demo video](link-to-your-recording)
+Demonstration recording of the full navigation run (Gazebo, RViz, and the Nav2 goal sequence):
+
+**[View the demo on Google Drive](https://drive.google.com/drive/folders/1kq9wbNynDnJ50TlxhLHUYBK5iZ_w5_FH?usp=sharing)**

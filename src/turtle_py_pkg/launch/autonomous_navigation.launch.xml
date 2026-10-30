@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-  <!-- Single entry point for Gazebo, TurtleBot3, Nav2, and RViz. -->
-  <include file="$(find-pkg-share turtle_py_pkg)/launch/turtlebot3_nav_demo.launch.py" />
-</launch>
